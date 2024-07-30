@@ -1,0 +1,6 @@
+<div class="m-3 p-2">
+  <p>THis is {{ name }} profile</p>
+  <h1>Input value is : {{ inputValue }}</h1>
+  <!-- <input type="text" [value]="inputValue" (input)="onChange($event)" /> -->
+  <input type="text" [(ngModel)]="inputValue" />
+</div>
