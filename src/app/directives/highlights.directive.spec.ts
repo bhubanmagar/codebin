@@ -3,7 +3,8 @@ import { HighlightsDirective } from './highlights.directive';
 
 describe('HighlightsDirective', () => {
   it('should create an instance', () => {
-    const directive = new HighlightsDirective();
+    const elementRefMock = new ElementRef(document.createElement('div'));
+    const directive = new HighlightsDirective(elementRefMock);
     expect(directive).toBeTruthy();
   });
 });
