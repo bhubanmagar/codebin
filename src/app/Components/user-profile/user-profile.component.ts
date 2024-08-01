@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 export class UserProfileComponent {
   name = 'bhuban';
   inputValue = 'test';
+  phonenumber = 234234243;
 
   // onChange(e: Event) {
   //   const value = (e.target as HTMLInputElement).value;
