@@ -17,7 +17,7 @@ export class HighlightsDirective {
 
   @HostListener('mouseenter')
   changebgColor() {
-    this.el.nativeElement.style.backgroundColor = 'yellow';
+    this.el.nativeElement.style.backgroundColor = 'red';
   }
   @HostListener('mouseleave')
   resetbgColor() {
